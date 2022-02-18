@@ -18,6 +18,12 @@ allow from all
 satisfy any
 </Files>
 
+#Allow TV output
+<Files "tv.php">
+allow from all
+satisfy any
+</Files>
+
 # Prevent viewing of .htaccess file
 <Files .htaccess>
 order allow,deny

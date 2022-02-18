@@ -9,3 +9,7 @@ TODO:
 - Verify graphics works
 - Verify flags works
 - Possiblity limiting access more to ISK directory
+- Verify TV output
+
+Change log:
+- Added exclusion for TV output !UNVERIFIED!
