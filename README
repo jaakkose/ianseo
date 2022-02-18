@@ -8,3 +8,4 @@ Strongly recommend placing htaccess passwd file outside of public_html directory
 TODO:
 - Verify graphics works
 - Verify flags works
+- Possiblity limiting access more to ISK directory
