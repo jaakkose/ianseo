@@ -1,0 +1,6 @@
+Using htaccess with Ianseo enabling ScoreKeeper use.
+
+Initial version. No guarantees!
+Some icon bugs currently but does not prevent use.
+
+Strongly recommend placing htaccess passwd file outside of public_html directory if possible. Passwd file generators can be found on-line.

@@ -1,0 +1,29 @@
+DirectoryIndex index.php index.html index.htm index.js
+# Password Protect file
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile $insertfullpwdfilepath$
+Require valid-user
+<Files "index.php">
+Require valid-user
+</Files>
+
+<Files "Ping.php">
+allow from all
+satisfy any
+</Files>
+
+<Files "favicon.ico">
+allow from all
+satisfy any
+</Files>
+
+# Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Prevent directory listings
+Options All -Indexes
+
